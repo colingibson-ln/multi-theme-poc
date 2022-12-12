@@ -1,5 +1,3 @@
-const colors = {
-    brand: "#E21836",
-};
+const colors = {};
 
 export default colors;

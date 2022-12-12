@@ -1,7 +1,7 @@
 import blur from "./blur";
 import borders from "./borders";
 import { breakpoints } from "./breakpoints";
-import { colors } from "./colors";
+import colors from "./colors";
 import radii from "./radius";
 import shadows from "./shadows";
 import sizes from "./sizes";

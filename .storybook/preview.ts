@@ -1,4 +1,5 @@
 import { globalDecorators } from "./decorators";
+import { themes } from "../themes";
 
 export const parameters = {
     actions: { argTypesRegex: "^on[A-Z].*" },
@@ -30,7 +31,8 @@ export const globalTypes = {
         defaultValue: "base",
         toolbar: {
             icon: "circlehollow",
-            items: ["base", "belasco"],
+            items: Object.keys(themes),
+            showName: true,
             dynamicTitle: true,
         },
     },

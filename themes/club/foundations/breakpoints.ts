@@ -22,10 +22,12 @@ export const viewports = {
 //     "2xl": "1536px",
 // };
 
+// default chakra
 export const breakpoints = {
-    xs: "320px",
-    s: "414px",
-    m: "768px",
-    l: "1024px",
-    xl: "1440px", // Used as the max-width
+    base: "0em",
+    sm: "30em",
+    md: "48em",
+    lg: "62em",
+    xl: "80em",
+    "2xl": "96em",
 };

@@ -16,9 +16,7 @@ const config: ThemeConfig = {
     cssVarPrefix: "base",
 };
 
-const belascoTheme = extendTheme({
-    isDark: false, // Overwritten in Object.assign
-    // colors: {}, // Overwritten in Object.assign
+const clubTheme = extendTheme({
     ...foundations,
     components,
     config,
@@ -27,17 +25,4 @@ const belascoTheme = extendTheme({
     styles,
 });
 
-export default belascoTheme;
-
-// export const lightTheme = Object.assign(
-//     {},
-//     theme,
-//     { isDark: false },
-//     { colors: foundations.colors.lightThemeColors }
-// );
-// export const darkTheme = Object.assign(
-//     {},
-//     theme,
-//     { isDark: true },
-//     { colors: foundations.colors.darkThemeColors }
-// );
+export default clubTheme;
